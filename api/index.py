@@ -12,4 +12,4 @@ def about():
     return 'About'
 
 if __name__ == "__main__":
-    run("server.api:app", host="0.0.0.0", port=8000, reload=False)
+    run("server.api:app", host="0.0.0.0", port=3000, reload=False)
