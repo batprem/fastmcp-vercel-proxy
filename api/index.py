@@ -1,5 +1,7 @@
 from uvicorn import run
 from quart import Quart
+from set_mcp.__main__ import mcp, run_sse_async
+import asyncio
 
 app = Quart(__name__)
 
@@ -11,5 +13,7 @@ def home():
 def about():
     return 'About'
 
+
 if __name__ == "__main__":
-    run("server.api:app", host="0.0.0.0", port=3000, reload=False)
+    asyncio.run(run_sse_async(mcp, "0.0.0.0", 3000))
+    # run("server.api:app", host="0.0.0.0", port=3000, reload=False)
