@@ -1,4 +1,4 @@
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/imperialwool/quart-uvicorn-example-vercel&project-name=quart-uvicorn-example&repository-name=quart-uvicorn-example-vercel)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/batprem/fastmcp-vercel-proxy&project-name=fastmcp-vercel-proxy&repository-name=fastmcp-vercel-proxy)
 
 # Quart+uvicorn + Vercel
 
